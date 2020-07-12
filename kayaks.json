@@ -1,0 +1,92 @@
+[{
+    "id":123,
+    "title":"Itiwit Inflatable 1 Person",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/yellow_kayak.webp",
+    "fixedPrice": 180,
+    "price":180
+},{
+    "id":124,
+    "title":"Itiwit Inflatable 1 or 2 Person",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/green_kayak.webp",
+    "fixedPrice": 245,
+    "price":245
+},{
+    "id":125,
+    "title":"Itiwit Inflatable Dropstitch X100 +2P",
+    "type":"fishingKayak",
+    "img":"images/Kayaks/Recreational/1633249_default.webp",
+    "fixedPrice": 400,
+    "price":400
+},{
+    "id":126,
+    "title":"Sevylor Inflatable Willamette",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/1597787_default.webp",
+    "fixedPrice": 495,
+    "price":495
+},{
+    "id":127,
+    "title":"Itiwit Inflatable Dropstitch x100 +3P",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/1818431_default.webp",
+    "fixedPrice": 550,
+    "price":550
+},{
+    "id":128,
+    "title":"Itiwit Inflatable 2P or 3P",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/1146854_default.webp",
+    "fixedPrice": 295,
+    "price":295
+},{
+    "id":129,
+    "title":"BIC Inflatable Yakkair Full High Pressure 3P",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/1854762_default.webp",
+    "fixedPrice": 1250,
+    "price":1250
+},{
+    "id":130,
+    "title":"Itiwit Inflatable x500 Dropstitch 1P",
+    "type":"fishingKayak",
+    "img":"images/Kayaks/Recreational/1507603_default.webp",
+    "fixedPrice": 650,
+    "price":650
+},{
+    "id":131,
+    "title":"Itiwit Inflatable Dropstitch High Pressure x500 2P",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/1868369_default.webp",
+    "fixedPrice": 1200,
+    "price":1200
+},{
+    "id":132,
+    "title":"BIC Sport Rigid 1P",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/1134236_default.webp",
+    "fixedPrice": 300,
+    "price":300
+},{
+    "id":133,
+    "title":"BIC Rigid Borneo 1P Adult 1P Kids",
+    "type":"fishingKayak",
+    "img":"images/Kayaks/Recreational/1232352_default.webp",
+    "fixedPrice": 700,
+    "price":700
+},{
+    "id":134,
+    "title":"Rotomod Rigid Ocean 2P Adult + 1P Kids",
+    "type":"fishingKayak",
+    "img":"images/Kayaks/Recreational/1269104_default.webp",
+    "fixedPrice": 600,
+    "price":600
+},{
+    "id":135,
+    "title":"BIC Inflatable Yakkair HP 2P",
+    "type":"recreationalKayak",
+    "img":"images/Kayaks/Recreational/1854761_default.webp",
+    "fixedPrice": 1100,
+    "price":1100
+}]

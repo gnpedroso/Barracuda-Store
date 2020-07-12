@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='initial-scale=1, viewport-fit=cover'><!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Barracuda Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/catalogue.css" type="text/css" />
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body class="no-js">
+    <nav class="nav_top">
+        <div class="nav_bar d-flex align-items-center justify-content-between">
+
+            <span class="menu-btn">
+              <span class="menu-btn__burger"></span>
+            </span> 
+
+            <a href="index.html" class="logo">Barracuda Store</a>
+
+            <div class="search">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <div class="userLogin">
+              <a href="#">
+                <i class="fas fa-user"></i>
+              </a>
+            </div>
+
+            <div class="shoppingCart">
+              <a class="cart_icon" href="#">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="badge badge-primary badge-pill" id="counter">0</span>
+              </a>
+            </div>
+
+        </div>
+
+        <div class="searchBar">
+            <form action="" class="d-flex align-items-center ">
+                <input type="text" placeholder="Search..." id="searchBar">
+                <input type="button" name="Search" value="Search" class="btn btn-primary" style="padding: 3px" id="searchBtn">
+            </form>
+        </div>
+
+        
+        <div class="shoppingCart_content">
+          <span class="closeCart">&times;</span>
+          <div class="emptyCart text-center">
+            <p><i class="fas fa-shopping-cart"></i></p>
+            <p>Your cart is empty</p>
+          </div>
+          <div class="content">
+          </div>
+
+          <div class="endCart text-center">
+            <p>Total: €<span class="totalCart">0</span></p>
+            <button class="btn btn-primary">Check Cart</button>
+          </div>
+        </div>
+
+        <div class="userLogin_content text-center">
+
+          <a href="#"><button class="btn btn-primary">Log In</button></a>
+
+          <div class="createAcc mt-5">
+            <a href="#"><p>Create an Account</p></a>
+          </div>
+        </div>
+
+       
+        </div>
+
+        <ul class="nav_menu list-unstyled">
+            <li><a href="index.html#aboutUs">About Us</a></li>
+            <li><a href="kayaks.html">Kayaks</a></li>
+            <li><a href="paddles.html">Paddles</a></li>
+            <li><a href="lifejacket.html">Life Jacket</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+        <section class="header_catalogue">
+          <h1>Paddles</h1>
+          <div class="form-group">
+            <label for="inputState">Filter by</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose your filter...</option>
+              <option value="low-high">Price (Low-High)</option>
+              <option value="high-low">Price (High-Low)</option>
+              <option value="a-z">A-Z</option>
+              <option value="z-a">Z-A</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="product_catalogue">
+          <div class="row products-grid">
+                <div class="items" data-price="22">
+                    <h5>Itiwit Kayak 4 Parts 100</h5>
+                    <img src="./images/Paddles/1345371_default.webp" alt="">
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fas fa-star-half"></i></li>
+                      </ul>
+                    </div>
+                    <h4>€22,00</h4>
+                    <button class="btn btn-primary" data-id="234">Add to cart</button>
+                </div>
+                <div class="items" data-price="25">
+                    <h5>Itiwit 1 Part Fixed 100</h5>
+                    <img src="./images/Paddles/pagaia-de-kayak-fixa-1-parte.webp" alt="">
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fas fa-star-half"></i></li>
+                      </ul>
+                    </div>
+                    <h4>€25,00</h4>
+                    <button class="btn btn-primary" data-id="235">Add to cart</button>
+                </div>
+                <div class="items" data-price="30">
+                    <h5>Itiwit 2 Parts x100</h5>
+                    <img src="./images/Paddles/1636984_default.webp" alt="">
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fas fa-star-half"></i></li>
+                      </ul>
+                    </div>
+                    <h4>€30,00</h4>
+                    <button class="btn btn-primary" data-id="236">Add to cart</button>
+                </div>
+                <div class="items" data-price="90">
+                    <h5>Itiwit Carbon X500 2 Parts 210-220cm</h5>
+                    <img src="./images/Paddles/1344478_default.webp" alt="">
+                    <div class="star-rating">
+                      <ul class="list-inline">
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fas fa-star-half"></i></li>
+                      </ul>
+                    </div>
+                    <h4>€90,00</h4>
+                    <button class="btn btn-primary" data-id="237">Add to cart</button>
+                </div>
+              
+          </div>
+      </section>
+
+      
+      
+      
+    <footer class="text-center">
+        <div class="social_media text-center container">
+          <a href="#"><i class="fab fa-instagram mt-3"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i><a>
+        </div>
+  
+        <div class="line mt-3"></div>
+  
+        <div class="row">
+          <div class="col-lg-3 mt-5 footer_menu">
+            <p>
+              <a data-toggle="collapse" href="#customerService" role="button" aria-expanded="false" aria-controls="collapseExample" class="footerLink">
+                Customer Service 
+                <svg class="bi bi-arrow-down-short" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
+                </svg>
+              </a>
+            </p>
+            <div class="collapse" id="customerService">
+              <div class="card card-body">
+                <ul class="list-unstyled">
+                  <a href="contact.html"><li>Contact Us</li></a>
+                  <a href="#"><li>Delivery</li></a>
+                  <a href="#"><li>Returns</li></a>
+                </ul>
+              </div>
+            </div>
+            <ul class="list-unstyled collapseActive">
+              <a href="contact.html"><li>Contact Us</li></a>
+              <a href="#"><li>Delivery</li></a>
+              <a href="#"><li>Returns</li></a>
+            </ul>
+          </div>
+  
+          <div class="col-lg-3 mt-5 footer_menu">
+            <p>
+              <a data-toggle="collapse" href="#usefulPages" role="button" aria-expanded="false" aria-controls="collapseExample" class="footerLink">
+                Useful Pages
+                <svg class="bi bi-arrow-down-short" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+                  <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
+                </svg>
+              </a>
+            </p>
+            <div class="collapse" id="usefulPages">
+              <div class="card card-body">
+                <ul class="list-unstyled">
+                  <a href="index.html#aboutUs"><li>About Us</li></a>
+                  <a href="#"><li>Privacy</li></a>
+                  <a href="#"><li>Terms</li></a>
+                </ul>
+              </div>
+            </div>
+            <ul class="list-unstyled collapseActive">
+              <a href="index.html#aboutUs"><li>About Us</li></a>
+              <a href="#"><li>Privacy</li></a>
+              <a href="#"><li>Terms</li></a>
+            </ul>
+          </div>
+  
+          <div class="col-lg-5">
+            <div class="newsletter text-center mt-5 container">
+              <h2>Newsletter</h2>
+              <p>The latest paddlesport gossip, exclusive deals, events and news straight to your inbox. Sign up now:</p>
+              <form action="get">
+                <svg class="bi bi-envelope" width="3rem" height="3rem" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M14 3H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+                  <path d="M.05 3.555C.017 3.698 0 3.847 0 4v.697l5.803 3.546L0 11.801V12c0 .306.069.596.192.856l6.57-4.027L8 9.586l1.239-.757 6.57 4.027c.122-.26.191-.55.191-.856v-.2l-5.803-3.557L16 4.697V4c0-.153-.017-.302-.05-.445L8 8.414.05 3.555z"/>
+                </svg>
+                <input type="email" placeholder=" Enter email..." id="emailInput">
+                <input type="button" name="join" value="Join" id="joinBtn">
+              </form>
+            </div>
+          </div>
+        </div>
+        
+        <small>Copyright © Barracuda Store 2020. All rights reserved. Commerce Solution </small>
+  
+      </footer>
+  
+      <script src="js/menu.js" type="text/javascript"></script>
+      <script src="js/main.js" type="text/javascript"></script>
+      <script src="js/search.js" type="text/javascript"></script>
+      <script src="js/openForm.js" type="text/javascript"></script>
+      <script src="js/cart2.js" type="text/javascript"></script>
+      <script src="js/catalogue.js" type="text/javascript"></script>
+
+  </body>

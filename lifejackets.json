@@ -1,0 +1,50 @@
+[{
+    "id":223,
+    "title":"Itiwit BA 50 Newtons DTC",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "img":"images/LifeJacket/1820354_default.webp",
+    "fixedPrice": 15,
+    "price":15
+},{
+    "id":224,
+    "title":"Itiwit BA 50N+ blue",
+    "desc":"Quisquam, veritatis, officia. Veritatis, saepe!",
+    "img":"images/LifeJacket/1279380_default.webp",
+    "fixedPrice": 15,
+    "price":15
+},{
+    "id":225,
+    "title":"Tribord 50N Vela Dinghy 500",
+    "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+    "img":"images/LifeJacket/1631160_default.webp",
+    "fixedPrice": 35,
+    "price":35
+},{
+    "id":226,
+    "title":"Itiwit BA 50N+ orange",
+    "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+    "img":"images/LifeJacket/1279071_default.webp",
+    "fixedPrice": 25,
+    "price":25
+},{
+    "id":227,
+    "title":"Rotomod RTM Easy 50N",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "img":"images/LifeJacket/182777_default.webp",
+    "fixedPrice": 25,
+    "price":25
+},{
+    "id":228,
+    "title":"Tribord 50N Vela Dinghy 500",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "img":"images/LifeJacket/1631181_default.webp",
+    "fixedPrice": 35,
+    "price":35
+},{
+    "id":229,
+    "title":"Itiwit 50N Pockets",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "img":"images/LifeJacket/1083154_default.webp",
+    "fixedPrice": 45,
+    "price":45
+}]

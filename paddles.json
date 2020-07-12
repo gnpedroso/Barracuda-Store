@@ -1,0 +1,29 @@
+[{
+    "id":233,
+    "title":"Itiwit Kayak 4 Parts 100",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "img":"images/Paddles/1345371_default.webp",
+    "fixedPrice": 22,
+    "price":22
+},{
+    "id":234,
+    "title":"Itiwit 1 Part Fixed 100",
+    "desc":"Quisquam, veritatis, officia. Veritatis, saepe!",
+    "img":"images/Paddles/pagaia-de-kayak-fixa-1-parte.webp",
+    "fixedPrice": 25,
+    "price":25
+},{
+    "id":235,
+    "title":"Itiwit 2 Parts x100",
+    "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+    "img":"images/Paddles/1636984_default.webp",
+    "fixedPrice": 30,
+    "price":30
+},{
+    "id":236,
+    "title":"Itiwit Carbon X500 2 Parts 210-220cm",
+    "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+    "img":"images/Paddles/1344478_default.webp",
+    "fixedPrice": 90,
+    "price":90
+}]

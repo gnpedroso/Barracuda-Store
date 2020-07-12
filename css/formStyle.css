@@ -1,0 +1,160 @@
+.choose{
+  position: relative;
+  display: flex;
+  top: 140px;
+  width: 100%;
+}
+
+.choose a{
+  color: black;
+  margin-left: 30px;
+  font-family: 'Bangers';
+  font-size: 1.5rem;
+}
+
+.choose a:hover{
+    border-bottom: 3px solid #007bff;
+    color: black;
+}
+
+.choose a.active{
+  border-bottom: 3px solid #007bff;
+}
+
+
+.facebookOrGoogle .facebook a{
+  background-color: #3b5998;
+  text-align: center;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  border: solid 1px #ccc;
+}
+.facebookOrGoogle .facebook a:hover{
+  background-color: white;
+  color: #9b9b9b;
+}
+
+.facebookOrGoogle .facebook i{
+  color: white;
+  position: relative;
+  top: 32px;
+  left: 30px;
+}
+
+.facebookOrGoogle .google a{
+  background-color: #f2f2f2;
+  text-align: center;
+  width: 100%; 
+  color: #9b9b9b;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  border: solid 1px #ccc;
+}
+.facebookOrGoogle .google a:hover{
+  background-color: white;
+}
+
+.facebookOrGoogle .google i{
+  color: #9b9b9b;
+  position: relative;
+  top: 35px;
+  left: 30px;
+}
+
+
+.form_login{
+    padding: 20px;
+    display: none;
+    position: relative;
+    margin-top: 20vh;
+    width: 30rem;
+    height: 35rem;
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    background-color: white;
+    top: 0;
+    
+}
+
+.form_createAcc{
+    padding: 20px;
+    position: relative;
+    margin-top: 20vh;
+    width: 30rem;
+    height: 35rem;
+    border: solid 1px #ccc;
+    background-color: white;
+    border-radius: 20px;
+    top: 0;
+}
+
+
+#letter, #capital, #number, #length{
+    display: block;
+    margin-top: 10px;
+}
+
+
+#messagePass{
+    display: none;
+}
+
+.invalid{
+    color: red;
+}
+
+.valid{
+    color: green;
+}
+
+.invalid::before{
+    content: "\2718";
+    margin-right: 5px;
+
+}
+
+.valid::before{
+    content: "\2713";
+    margin-right: 5px;
+}
+
+.sideImage{
+  display: none;
+}
+
+@media (min-width: 1024px){
+
+  .sideImage{
+    background-image: url('../images/photo-of-person-on-kayak-2749500.jpg');
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: block;
+    padding: 20px;
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 5px;
+    width: 30rem;
+    height: 35rem;
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    top: 0;
+  }
+
+
+  .sideImage_title{
+    text-align: center;
+    position: relative;
+    font-size: 6rem;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    z-index: 2;
+  }
+
+}
+

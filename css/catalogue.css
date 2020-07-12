@@ -1,0 +1,126 @@
+.header_catalogue{
+    color: black;
+    font-family: 'Bangers', cursive;
+    position: relative;
+    top: 3rem;
+    margin: 30px;
+}
+
+.header_catalogue h1{
+    font-size: 3rem;
+}
+
+.header_catalogue li{
+    margin-top: 20px;
+    color: black;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.header_catalogue li:hover{
+    color: #857e7e;
+}
+
+.products-grid{
+    margin: 0 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+
+.header_catalogue li:nth-child(2), .header_catalogue li:nth-child(3){
+    margin-left: 20px;
+}
+
+.items{
+    font-family: 'Bangers', cursive;
+    margin-top: 100px;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+}
+
+.items h5{
+    height: 50px;
+}
+
+.items img{
+    width: 80%;
+    cursor: pointer;
+}
+
+.form-group{
+    font-size: 1.4rem;
+}
+
+#inputState{
+    font-size: 1.3rem;
+}
+
+
+@media (min-width: 768px){
+
+    .products-grid{
+        margin: 0 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px;
+        grid-auto-rows: minmax(100px, auto);
+        
+    }
+
+    .recreational_product img, .fishing_product img{
+        width: 100%;
+    }
+    
+  
+  }
+
+  @media (min-width: 1024px){
+
+    .products-grid{
+        margin: 0 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .items{
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        width: 95%;
+        padding: 20px;
+    }
+
+    .items h5{
+        height: 10px;
+    }
+
+    .items img{
+        transform: scale(.7);
+    }
+
+    .items:hover{
+        border: 1px solid rgb(55, 118, 235);
+        transition: ease-in-out .3s;
+    }
+
+    .items:hover img{
+        opacity: .7;
+        transform: scale(.9);
+        transition: 0.5s;
+        
+    }
+
+    .items button{
+        width: 30%;
+    }
+
+    #inputState{
+        width: 40%;
+    }
+
+  }
